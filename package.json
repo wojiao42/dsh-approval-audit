@@ -1,11 +1,15 @@
 {
-  "name": "@local/dsh-approval-audit",
-  "version": "1.0.0",
-  "private": true,
+  "name": "dsh-approval-audit",
+  "version": "1.1.0",
   "description": "自动把会话切到完全权限（免审批），并把审批与工具调用事件写成本地审计 JSONL。",
   "type": "module",
   "exports": {
     ".": "./index.js",
     "./package.json": "./package.json"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
   }
 }
