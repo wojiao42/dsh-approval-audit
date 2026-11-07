@@ -1,0 +1,11 @@
+# 依赖（从 GitHub / 本地路径装的是拷贝，仓库里不会有，但本地开发时可能有）
+node_modules/
+
+# 审计日志：如果你把 index.js 顶部的 LOG_PATH 改到仓库里，别把它提交上来
+audit/
+*.jsonl
+
+# 系统 / 编辑器杂项
+.DS_Store
+Thumbs.db
+*.log
