@@ -228,7 +228,11 @@ node --check index.js
 
 ## 收录状态
 
-尚未投稿：没有 PR 号，也不在 awesome-dsh-plugin / dsh-plugin.org 的目录里。投稿后在这里补 PR 与收录日期。
+**awesome-dsh-plugin**：已投稿 → PR [#13629](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin/pull/13629)（2026-11-09 开，CI 全绿，等待维护者合并）。合并前目录里还查不到本插件。
+
+**dsh-plugin.org**：尚未提交（站点没有公开投稿入口），目前站内没有条目。
+
+> 提醒：本插件装上即关闭审批闸门，只建议在明确需要「全自动 + 事后审计」的场景使用，详见顶部风险提示。
 
 ## 许可
 
